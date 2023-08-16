@@ -1,0 +1,13 @@
+{
+  "libraryName": "leonardo",
+  "libraryPrefix": "ld",
+  "shoelaceVersion": "v2.6.0",
+  "vendorPath": "vendor",
+  "targetPath": ".",
+  "components": [
+    "alert",
+    "button"
+  ],
+  "updateGitignore": false,
+  "lockFilesForVSCode": false
+}

@@ -1,0 +1,43 @@
+{
+  "name": "custom-shoelace-playground",
+  "version": "1.0.1",
+  "description": "",
+  "main": "scripts/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariohamann/custom-shoelace"
+  },
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "tsc && vite build",
+    "build-storybook": "storybook build"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "mariohamann",
+  "license": "ISC",
+  "devDependencies": {
+    "@custom-shoelace/cli": "^1.0.1",
+    "@shoelace-style/animations": "^1.1.0",
+    "@shoelace-style/localize": "^3.1.1",
+    "@storybook/addon-essentials": "^7.2.1",
+    "@storybook/addon-links": "^7.2.1",
+    "@storybook/blocks": "^7.2.1",
+    "@storybook/web-components": "^7.2.1",
+    "@storybook/web-components-vite": "^7.2.1",
+    "lit": "^2.7.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.2.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-replace": "^0.1.1"
+  },
+  "dependencies": {
+    "@clack/core": "^0.3.3",
+    "@clack/prompts": "^0.7.0",
+    "dependency-tree": "^10.0.9",
+    "download-git-repo": "^3.0.2",
+    "globby": "^13.2.2"
+  }
+}

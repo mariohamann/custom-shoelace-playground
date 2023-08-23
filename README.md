@@ -23,14 +23,14 @@ From that on this file will not longer be synced when you update Shoelace etc.
 You can test with the follwoing:
 
 ```bash
-npx custom-sholace
+npx custom-shoelace
 # "What do you want to do?" -> "Regenerate Shoelace files"
 ```
 
 ## Add new components
 
 ```bash
-npx custom-sholace
+npx custom-shoelace
 # "What do you want to do?" -> "Add component"
 # "Which component would you like to install?" -> "e. g. card"
 ```
@@ -40,7 +40,7 @@ npx custom-sholace
 Go into `custom-shoelace.config.js` and change the version number to 2.7.0
 
 ```bash
-npx custom-sholace
+npx custom-shoelace
 # "What do you want to do?" -> "Download Shoelace"
 ```
 
